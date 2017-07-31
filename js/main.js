@@ -8,14 +8,14 @@ jQuery(function($) {
 	});
 
 	//Ajax contact
-	var form = $('.contact-form');
+	/*var form = $('.contact-form');
 	form.submit(function () {
 		$this = $(this);
 		$.post($(this).attr('action'), function(data) {
 			$this.prev().text(data.message).fadeIn().delay(3000).fadeOut();
 		},'json');
 		return false;
-	});
+	});*/
 
 	//smooth scroll
 	$('.navbar-nav > li').click(function(event) {
@@ -28,8 +28,8 @@ jQuery(function($) {
 
 	//scrollspy
 	$('[data-spy="scroll"]').each(function () {
-		var $spy = $(this).scrollspy('refresh')
-	})
+		var $spy = $(this).scrollspy('refresh');
+	});
 
 	//PrettyPhoto
 	$("a.preview").prettyPhoto({
