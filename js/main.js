@@ -37,7 +37,7 @@ jQuery(function($) {
 	});
 
 	//Isotope
-	$(window).load(function(){
+	/*$(window).load(function(){
 		$portfolio = $('.portfolio-items');
 		$portfolio.isotope({
 			itemSelector : 'li',
@@ -51,5 +51,5 @@ jQuery(function($) {
 			$portfolio.isotope({ filter: selector });
 			return false;
 		});
-	});
+	});*/
 });
