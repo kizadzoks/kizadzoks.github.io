@@ -51,7 +51,7 @@ $(function() {
                     $('#success > .alert-danger').append("<strong>Izgleda da server trenutno ima poteškoća. Molimo Vas da pokušate kasnije!");
                     $('#success > .alert-danger').append('</div>');
                     //clear all fields
-                    $('#contactForm').trigger("reset");
+                    $('#main-contact-form').trigger("reset");
                 },
 
             });
@@ -65,9 +65,4 @@ $(function() {
         e.preventDefault();
         $(this).tab("show");
     });
-});
-
-// When clicking on Full hide fail/success boxes
-$('#name').focus(function() {
-    $('#success').html('');
 });
