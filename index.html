@@ -249,26 +249,26 @@
                         <h1>Kontaktirajte nas</h1>
                         <p>Pošaljite nam upit bilo kada - odgovorićemo Vam u roku od 24 časa.</p>
                         <div class="status alert alert-success" style="display: none"></div>
-                        <form id="main-contact-form" class="contact-form" name="contact-form" role="form">
+                        <form id="main-contact-form" class="contact-form" name="contact-form" role="form" novalidate="">
                             <div class="row">
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input id="name" type="text" class="form-control" required="" data-validation-required-message="Please enter your name." placeholder="Ime">
+                                        <input id="name" type="text" class="form-control" required="" data-validation-required-message="Molimo upišite ime." placeholder="Ime">
                                     </div>
                                 </div>
                                 <div class="col-sm-6">
                                     <div class="form-group">
-                                        <input id="email" type="text" class="form-control" required="" data-validation-required-message="Please enter your email address." placeholder="Email adresa">
+                                        <input id="email" type="text" class="form-control" required="" data-validation-required-message="Molimo unesite email adresu." placeholder="Email adresa">
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-sm-12">
                                     <div class="form-group">
-                                        <textarea name="message" id="message" required="" data-validation-required-message="Please enter a message." class="form-control" rows="8" placeholder="Poruka"></textarea>
+                                        <textarea name="message" id="message" required="" data-validation-required-message="Molimo da unesete poruku." class="form-control" rows="8" placeholder="Poruka"></textarea>
                                     </div>
-                                    <div class="form-group">
-                                        <button id="success" type="submit" class="btn btn-danger btn-lg">Pošalji upit</button>
+                                    <div id="success" class="form-group">
+                                        <button type="submit" class="btn btn-danger btn-lg">Pošalji upit</button>
                                     </div>
                                 </div>
                             </div>
