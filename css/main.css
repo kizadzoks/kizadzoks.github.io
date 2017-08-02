@@ -581,6 +581,13 @@ ul.social > li > a i {
 textarea#message {
   padding: 10px 15px;
   height: 220px;
+  color: white;
+}
+input#name{
+  color: white;
+}
+input#email{
+  color: white;
 }
 @keyframes scaleUp {
   0% {
