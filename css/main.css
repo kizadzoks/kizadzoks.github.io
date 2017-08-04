@@ -47,7 +47,7 @@ a:focus {
   height: 80px;
   z-index: 99999;
 }
-#main-slider {
+#izrada-sajta {
   background-image: url(../images/slider-bg.jpg);
   background-attachment: fixed;
   background-size: cover;
@@ -56,7 +56,7 @@ a:focus {
   padding: 200px 0;
   color: #fff;
 }
-#main-slider .item {
+#izrada-sajta .item {
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
   -webkit-transition: opacity ease-in-out 500ms;
@@ -70,11 +70,11 @@ a:focus {
   z-index: 1;
   text-align: center;
 }
-#main-slider .item:first-child {
+#izrada-sajta .item:first-child {
   top: auto;
   position: relative;
 }
-#main-slider .item.active {
+#izrada-sajta .item.active {
   opacity: 1;
   -moz-transition: opacity ease-in-out 500ms;
   -o-transition: opacity ease-in-out 500ms;
@@ -82,15 +82,15 @@ a:focus {
   transition: opacity ease-in-out 500ms;
   z-index: 2;
 }
-#main-slider .item.active h1 {
+#izrada-sajta .item.active h1 {
   -webkit-animation: scaleUp 400ms;
   -moz-animation: scaleUp 400ms;
   -o-animation: scaleUp 400ms;
   -ms-animation: scaleUp 400ms;
   animation: scaleUp 400ms;
 }
-#main-slider .prev,
-#main-slider .next {
+#izrada-sajta .prev,
+#izrada-sajta .next {
   position: absolute;
   top: 50%;
   background-color: rgba(0, 0, 0, 0.3);
@@ -105,39 +105,39 @@ a:focus {
   border-radius: 4px;
   z-index: 5;
 }
-#main-slider .prev:hover,
-#main-slider .next:hover {
+#izrada-sajta .prev:hover,
+#izrada-sajta .next:hover {
   background-color: rgba(0, 0, 0, 0.5);
 }
-#main-slider .prev {
+#izrada-sajta .prev {
   left: 10px;
 }
-#main-slider .next {
+#izrada-sajta .next {
   right: 10px;
 }
-#main-slider h1 {
+#izrada-sajta h1 {
   font-size: 68px;
   text-shadow: 0 3px rgba(0, 0, 0, 0.1);
   color: #fff;
 }
-#contact .box {
+#izrada-sajta-kontakt .box {
   background-color: #222;
   color: #999;
 }
-#contact .box h1,
-#contact .box h2,
-#contact .box h3 {
+#izrada-sajta-kontakt .box h1,
+#izrada-sajta-kontakt .box h2,
+#izrada-sajta-kontakt .box h3 {
   color: #fff;
 }
-#contact .box a {
+#izrada-sajta-kontakt .box a {
   color: #999;
 }
-#contact .box a:hover {
+#izrada-sajta-kontakt .box a:hover {
   color: #52b6ec;
 }
-#contact .box input[type="text"],
-#contact .box input[type="email"],
-#contact .box textarea {
+#izrada-sajta-kontakt .box input[type="text"],
+#izrada-sajta-kontakt .box input[type="email"],
+#izrada-sajta-kontakt .box textarea {
   background-color: #111;
   border: 0;
   -webkit-transition: 300ms;
@@ -145,9 +145,9 @@ a:focus {
   -o-transition: 300ms;
   transition: 300ms;
 }
-#contact .box input[type="text"]:focus,
-#contact .box input[type="email"]:focus,
-#contact .box textarea:focus {
+#izrada-sajta-kontakt .box input[type="text"]:focus,
+#izrada-sajta-kontakt .box input[type="email"]:focus,
+#izrada-sajta-kontakt .box textarea:focus {
   background-color: #000;
   -webkit-box-shadow: none;
   -moz-box-shadow: none;
@@ -174,7 +174,7 @@ a:focus {
   margin-bottom: 30px;
   font-size: 48px;
 }
-#portfolio .box {
+#izrada-sajta-primeri .box {
   background: #f3f3f3;
 }
 .portfolio-items,
@@ -308,10 +308,10 @@ a:focus {
   -o-transition: none;
   transition: none;
 }
-#pricing .box {
+#cena-izrade-sajta .box {
   background-color: #f9f9f9;
 }
-#pricing .plan {
+#cena-izrade-sajta .plan {
   background: #fff;
   list-style: none;
   margin: 0 0 20px;
@@ -319,43 +319,43 @@ a:focus {
   padding: 0;
   border-bottom: 1px solid #e1e1e1;
 }
-#pricing .plan li {
+#cena-izrade-sajta .plan li {
   padding: 10px 0;
   margin: 0 15px;
   border-bottom: 1px dashed #eee;
 }
-#pricing .plan li.plan-name {
+#cena-izrade-sajta .plan li.plan-name {
   padding: 15px 0;
   font-size: 18px;
   font-weight: 700;
 }
-#pricing .plan li.plan-price {
+#cena-izrade-sajta .plan li.plan-price {
   color: #666;
   padding: 15px 0;
   font-size: 48px;
 }
-#pricing .plan li.plan-action {
+#cena-izrade-sajta .plan li.plan-action {
   margin-top: 20px;
   margin-bottom: 20px;
   border-bottom: 0;
 }
-#pricing .plan.featured {
+#cena-izrade-sajta .plan.featured {
   -webkit-transform: scale(1.05);
   -moz-transform: scale(1.05);
   -ms-transform: scale(1.05);
   -o-transform: scale(1.05);
   transform: scale(1.05);
 }
-#pricing .plan.featured .plan-price {
+#cena-izrade-sajta .plan.featured .plan-price {
   color: #fff;
   background-color: #52b6ec;
   border-bottom-color: #52b6ec;
   margin: 0;
 }
-#services .box {
+#usluga-izrade-sajtova .box {
   padding-bottom: 0;
 }
-#services .row > div {
+#usluga-izrade-sajtova .row > div {
   margin-bottom: 50px;
 }
 .center {
@@ -640,5 +640,5 @@ input#email{
   }
 }
 #gugl{
-  color: #463b65;
+  color: #abf0ca;
 }
