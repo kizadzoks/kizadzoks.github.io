@@ -174,9 +174,7 @@ a:focus {
   margin-bottom: 30px;
   font-size: 48px;
 }
-#izrada-sajta-primeri .box {
-  background: #f3f3f3;
-}
+
 .portfolio-items,
 .portfolio-filter {
   list-style: none;
@@ -466,7 +464,7 @@ a:focus {
   -webkit-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
   -moz-box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
   box-shadow: 0 1px 3px 0 rgba(0,0,0,.2);
-  overflow: hidden;
+  overflow: visible;
 }
 .navbar-default .first a {
   border-radius: 0 0 0 5px;
@@ -642,3 +640,7 @@ input#email{
 #gugl{
   color: #abf0ca;
 }
+  #izrada-sajta-primeri .box {
+    margin-top: -40px;
+    background: white;
+  }
