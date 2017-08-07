@@ -640,7 +640,7 @@ input#email{
 #gugl{
   color: #abf0ca;
 }
-  #izrada-sajta-primeri .box {
-    margin-top: -40px;
-    background: white;
-  }
+#izrada-sajta-primeri .box {
+  display: inline-block;
+  background: white;
+}
