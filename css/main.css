@@ -644,3 +644,6 @@ input#email{
   display: inline-block;
   background: white;
 }
+#odrzavanje{
+  list-style-type: none;
+}
