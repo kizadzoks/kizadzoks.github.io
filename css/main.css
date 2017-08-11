@@ -647,3 +647,8 @@ input#email{
 #odrzavanje{
   list-style-type: none;
 }
+.blogimg{
+  display: block;
+   margin: auto;
+   width: 50%;
+}
